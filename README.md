@@ -1,2 +1,2 @@
-# news-explorer-api
+# News explorer API
 News explorer API
