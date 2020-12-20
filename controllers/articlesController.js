@@ -5,7 +5,6 @@ const ForbiddenError = require('../errors/forbiddenError');
 
 const getArticles = (req, res, next) => {
   Article.find({ owner: req.user._id })
-    .populate('owner')
     .then((articles) => {
       if (!articles.length) {
         throw new NotFoundError('There are no articles yet...');
