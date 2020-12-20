@@ -1,0 +1,44 @@
+{
+  "name": "news-explorer-api",
+  "version": "1.0.0",
+  "description": "news explorer api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foxoter/news-explorer-api.git"
+  },
+  "author": "Bulat KT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foxoter/news-explorer-api/issues"
+  },
+  "homepage": "https://github.com/foxoter/news-explorer-api#readme",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "celebrate": "^13.0.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "express-winston": "^4.0.5",
+    "helmet": "^4.2.0",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.8",
+    "validator": "^13.5.2",
+    "winston": "^3.3.3"
+  }
+}
