@@ -71,7 +71,10 @@ const login = (req, res, next) => {
 
 const logout = (req, res) => {
   res
-    .clearCookie('jwt')
+    .clearCookie('jwt', {
+      sameSite: 'none',
+      secure: true,
+    })
     .send({ message: 'Token deleted' });
 };
 
